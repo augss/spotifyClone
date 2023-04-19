@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import CardView from "./src/pages/CardView";
+import CardView from "./screens/CardView";
 import Header from "./src/components/Header";
 import Footer from "./src/components/Footer";
 

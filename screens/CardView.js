@@ -8,8 +8,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-import { artist } from "../components/ArtistInfo.js";
-import { playlist } from "../components/PlaylistInfo.js";
+import { artist } from "../src/components/ArtistInfo.js";
+import { playlist } from "../src/components/PlaylistInfo.js";
 import { useFonts, Poppins_500Medium } from "@expo-google-fonts/poppins";
 
 const Card = ({ musician, selectedMusician, onPress }) => {
